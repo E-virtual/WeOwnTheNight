@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53373C2B1FAAFD3C0043F3BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53373C291FAAFD3C0043F3BE /* Main.storyboard */; };
+		53373C2D1FAAFD3C0043F3BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53373C2C1FAAFD3C0043F3BE /* Assets.xcassets */; };
+		53373C301FAAFD3C0043F3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53373C2E1FAAFD3C0043F3BE /* LaunchScreen.storyboard */; };
+		53373C5D1FAAFD860043F3BE /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C391FAAFD860043F3BE /* AppConstants.swift */; };
+		53373C5E1FAAFD860043F3BE /* ServerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C3B1FAAFD860043F3BE /* ServerConstants.swift */; };
+		53373C5F1FAAFD860043F3BE /* ClassExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C3E1FAAFD860043F3BE /* ClassExtentions.swift */; };
+		53373C601FAAFD860043F3BE /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C401FAAFD860043F3BE /* HUD.swift */; };
+		53373C611FAAFD860043F3BE /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C421FAAFD860043F3BE /* Indicator.swift */; };
+		53373C621FAAFD860043F3BE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C441FAAFD860043F3BE /* Alert.swift */; };
+		53373C631FAAFD860043F3BE /* SwiftValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C461FAAFD860043F3BE /* SwiftValidation.swift */; };
+		53373C641FAAFD860043F3BE /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C481FAAFD860043F3BE /* WebService.swift */; };
+		53373C671FAAFD860043F3BE /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 53373C521FAAFD860043F3BE /* Montserrat-Black.otf */; };
+		53373C681FAAFD860043F3BE /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 53373C531FAAFD860043F3BE /* Montserrat-Bold.otf */; };
+		53373C691FAAFD860043F3BE /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 53373C541FAAFD860043F3BE /* Montserrat-ExtraBold.otf */; };
+		53373C6A1FAAFD860043F3BE /* Montserrat-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 53373C551FAAFD860043F3BE /* Montserrat-Hairline.otf */; };
+		53373C6B1FAAFD860043F3BE /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 53373C561FAAFD860043F3BE /* Montserrat-Light.otf */; };
+		53373C6C1FAAFD860043F3BE /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 53373C571FAAFD860043F3BE /* Montserrat-Regular.otf */; };
+		53373C6D1FAAFD860043F3BE /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 53373C581FAAFD860043F3BE /* Montserrat-SemiBold.otf */; };
+		53373C6E1FAAFD860043F3BE /* Montserrat-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 53373C591FAAFD860043F3BE /* Montserrat-UltraLight.otf */; };
+		53373C6F1FAAFD860043F3BE /* TIMEBURNERBOLD.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 53373C5A1FAAFD860043F3BE /* TIMEBURNERBOLD.TTF */; };
+		53373C701FAAFD860043F3BE /* TIMEBURNERNORMAL.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 53373C5B1FAAFD860043F3BE /* TIMEBURNERNORMAL.TTF */; };
+		53373C731FAAFDA00043F3BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C721FAAFDA00043F3BE /* AppDelegate.swift */; };
+		53373C771FAB013B0043F3BE /* camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 53373C761FAB013B0043F3BE /* camera.m */; };
+		53373C7A1FAB01520043F3BE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 53373C791FAB01520043F3BE /* Reachability.m */; };
+		53373C7E1FAB02B30043F3BE /* WelcomeOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C7D1FAB02B30043F3BE /* WelcomeOptionViewController.swift */; };
+		53373C8B1FAB131B0043F3BE /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53373C841FAB131B0043F3BE /* TPKeyboardAvoidingCollectionView.m */; };
+		53373C8C1FAB131B0043F3BE /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53373C861FAB131B0043F3BE /* TPKeyboardAvoidingScrollView.m */; };
+		53373C8D1FAB131B0043F3BE /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53373C881FAB131B0043F3BE /* TPKeyboardAvoidingTableView.m */; };
+		53373C8E1FAB131B0043F3BE /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53373C8A1FAB131B0043F3BE /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		53373C911FAB13790043F3BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C901FAB13790043F3BE /* LoginViewController.swift */; };
+		53373C941FAB29E70043F3BE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C931FAB29E70043F3BE /* RegisterViewController.swift */; };
+		53373C9C1FAB35D90043F3BE /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373C9B1FAB35D90043F3BE /* DashboardViewController.swift */; };
+		53373CA91FAB4B1B0043F3BE /* EventBookingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53373CA81FAB4B1B0043F3BE /* EventBookingListViewController.swift */; };
+		535AF1171FAC2BD0004E4108 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF1161FAC2BD0004E4108 /* HelpViewController.swift */; };
+		535AF1221FAC43A2004E4108 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 535AF11A1FAC43A2004E4108 /* MMDrawerBarButtonItem.m */; };
+		535AF1231FAC43A2004E4108 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535AF11D1FAC43A2004E4108 /* MMDrawerController.m */; };
+		535AF1241FAC43A2004E4108 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 535AF11F1FAC43A2004E4108 /* MMDrawerVisualState.m */; };
+		535AF1251FAC43A2004E4108 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535AF1211FAC43A2004E4108 /* UIViewController+MMDrawerController.m */; };
+		535AF1271FAC5822004E4108 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 535AF1261FAC5822004E4108 /* background1.png */; };
+		535AF1291FAC583D004E4108 /* poster.png in Resources */ = {isa = PBXBuildFile; fileRef = 535AF1281FAC583D004E4108 /* poster.png */; };
+		535AF12D1FAC619D004E4108 /* MyEventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF12C1FAC619D004E4108 /* MyEventListViewController.swift */; };
+		535AF12F1FAC65BE004E4108 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 535AF12E1FAC65BE004E4108 /* user.png */; };
+		535AF1321FAC675B004E4108 /* EventBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF1311FAC675B004E4108 /* EventBookingViewController.swift */; };
+		535AF1351FAC8218004E4108 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF1341FAC8218004E4108 /* EventDetailViewController.swift */; };
+		535AF1381FAC8909004E4108 /* CreateNewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF1371FAC8909004E4108 /* CreateNewEventViewController.swift */; };
+		535AF13B1FAC8E12004E4108 /* MessagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF13A1FAC8E12004E4108 /* MessagesListViewController.swift */; };
+		535AF13E1FAC94D4004E4108 /* MessageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF13D1FAC94D4004E4108 /* MessageDetailsViewController.swift */; };
+		535AF1411FACA1AD004E4108 /* ProfilePicUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF1401FACA1AD004E4108 /* ProfilePicUploadViewController.swift */; };
+		535AF1451FACA5EE004E4108 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF1431FACA5EE004E4108 /* TabBarViewController.swift */; };
+		535AF1471FACA612004E4108 /* UserTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF1461FACA612004E4108 /* UserTabBarViewController.swift */; };
+		535AF14A1FACA91B004E4108 /* UserDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF1491FACA91B004E4108 /* UserDashboardViewController.swift */; };
+		535AF1521FACAA95004E4108 /* MyMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF1501FACAA95004E4108 /* MyMenuTableViewController.swift */; };
+		535AF1541FACAABC004E4108 /* UserSideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AF1531FACAABC004E4108 /* UserSideMenuTableViewController.swift */; };
+		536B8EA51FB0217900895C7A /* ClubListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B8EA41FB0217900895C7A /* ClubListingViewController.swift */; };
+		536B8EA81FB0234B00895C7A /* EventOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B8EA71FB0234B00895C7A /* EventOnMapViewController.swift */; };
+		536B8EAB1FB0312E00895C7A /* EventsByCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B8EAA1FB0312E00895C7A /* EventsByCalendarViewController.swift */; };
+		536B8EAE1FB03DE000895C7A /* UserEventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B8EAD1FB03DE000895C7A /* UserEventDetailsViewController.swift */; };
+		538447CD1FB17C85006661DD /* ClubProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538447CC1FB17C85006661DD /* ClubProfileViewController.swift */; };
+		538447D01FB1846A006661DD /* SendMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538447CF1FB1846A006661DD /* SendMessageViewController.swift */; };
+		538447D31FB19068006661DD /* EventBookingOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538447D21FB19068006661DD /* EventBookingOptionViewController.swift */; };
+		538447D71FB19CEB006661DD /* SearchEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538447D61FB19CEB006661DD /* SearchEventViewController.swift */; };
+		FE2CEBFE89A611CABB6EBCA3 /* Pods_WeOwnTheNight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C0045220891B0D16464243 /* Pods_WeOwnTheNight.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1301F8240F8304527DE30098 /* Pods-WeOwnTheNight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeOwnTheNight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeOwnTheNight/Pods-WeOwnTheNight.debug.xcconfig"; sourceTree = "<group>"; };
+		53373C221FAAFD3C0043F3BE /* WeOwnTheNight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeOwnTheNight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53373C2A1FAAFD3C0043F3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53373C2C1FAAFD3C0043F3BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53373C2F1FAAFD3C0043F3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53373C311FAAFD3C0043F3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53373C391FAAFD860043F3BE /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		53373C3B1FAAFD860043F3BE /* ServerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConstants.swift; sourceTree = "<group>"; };
+		53373C3E1FAAFD860043F3BE /* ClassExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassExtentions.swift; sourceTree = "<group>"; };
+		53373C401FAAFD860043F3BE /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		53373C421FAAFD860043F3BE /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		53373C441FAAFD860043F3BE /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		53373C461FAAFD860043F3BE /* SwiftValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftValidation.swift; sourceTree = "<group>"; };
+		53373C481FAAFD860043F3BE /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		53373C521FAAFD860043F3BE /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		53373C531FAAFD860043F3BE /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		53373C541FAAFD860043F3BE /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		53373C551FAAFD860043F3BE /* Montserrat-Hairline.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Hairline.otf"; sourceTree = "<group>"; };
+		53373C561FAAFD860043F3BE /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		53373C571FAAFD860043F3BE /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		53373C581FAAFD860043F3BE /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		53373C591FAAFD860043F3BE /* Montserrat-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-UltraLight.otf"; sourceTree = "<group>"; };
+		53373C5A1FAAFD860043F3BE /* TIMEBURNERBOLD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = TIMEBURNERBOLD.TTF; sourceTree = "<group>"; };
+		53373C5B1FAAFD860043F3BE /* TIMEBURNERNORMAL.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = TIMEBURNERNORMAL.TTF; sourceTree = "<group>"; };
+		53373C721FAAFDA00043F3BE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53373C741FAB013B0043F3BE /* WeOwnTheNight-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WeOwnTheNight-Bridging-Header.h"; path = "WeOwnTheNight/OtherClasses/GalleryAndCamera/WeOwnTheNight-Bridging-Header.h"; sourceTree = "<group>"; };
+		53373C751FAB013B0043F3BE /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		53373C761FAB013B0043F3BE /* camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = camera.m; sourceTree = "<group>"; };
+		53373C781FAB01520043F3BE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		53373C791FAB01520043F3BE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		53373C7D1FAB02B30043F3BE /* WelcomeOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeOptionViewController.swift; sourceTree = "<group>"; };
+		53373C831FAB131B0043F3BE /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		53373C841FAB131B0043F3BE /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		53373C851FAB131B0043F3BE /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		53373C861FAB131B0043F3BE /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		53373C871FAB131B0043F3BE /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		53373C881FAB131B0043F3BE /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		53373C891FAB131B0043F3BE /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		53373C8A1FAB131B0043F3BE /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		53373C901FAB13790043F3BE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		53373C931FAB29E70043F3BE /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		53373C9B1FAB35D90043F3BE /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		53373CA81FAB4B1B0043F3BE /* EventBookingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBookingListViewController.swift; sourceTree = "<group>"; };
+		535AF1161FAC2BD0004E4108 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		535AF1191FAC43A2004E4108 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		535AF11A1FAC43A2004E4108 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		535AF11B1FAC43A2004E4108 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		535AF11C1FAC43A2004E4108 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		535AF11D1FAC43A2004E4108 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		535AF11E1FAC43A2004E4108 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		535AF11F1FAC43A2004E4108 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		535AF1201FAC43A2004E4108 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		535AF1211FAC43A2004E4108 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		535AF1261FAC5822004E4108 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		535AF1281FAC583D004E4108 /* poster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poster.png; sourceTree = "<group>"; };
+		535AF12C1FAC619D004E4108 /* MyEventListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEventListViewController.swift; sourceTree = "<group>"; };
+		535AF12E1FAC65BE004E4108 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		535AF1311FAC675B004E4108 /* EventBookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBookingViewController.swift; sourceTree = "<group>"; };
+		535AF1341FAC8218004E4108 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		535AF1371FAC8909004E4108 /* CreateNewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewEventViewController.swift; sourceTree = "<group>"; };
+		535AF13A1FAC8E12004E4108 /* MessagesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesListViewController.swift; sourceTree = "<group>"; };
+		535AF13D1FAC94D4004E4108 /* MessageDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDetailsViewController.swift; sourceTree = "<group>"; };
+		535AF1401FACA1AD004E4108 /* ProfilePicUploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePicUploadViewController.swift; sourceTree = "<group>"; };
+		535AF1431FACA5EE004E4108 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		535AF1461FACA612004E4108 /* UserTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTabBarViewController.swift; sourceTree = "<group>"; };
+		535AF1491FACA91B004E4108 /* UserDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDashboardViewController.swift; sourceTree = "<group>"; };
+		535AF1501FACAA95004E4108 /* MyMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMenuTableViewController.swift; sourceTree = "<group>"; };
+		535AF1531FACAABC004E4108 /* UserSideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSideMenuTableViewController.swift; sourceTree = "<group>"; };
+		536B8EA41FB0217900895C7A /* ClubListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubListingViewController.swift; sourceTree = "<group>"; };
+		536B8EA71FB0234B00895C7A /* EventOnMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventOnMapViewController.swift; sourceTree = "<group>"; };
+		536B8EAA1FB0312E00895C7A /* EventsByCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsByCalendarViewController.swift; sourceTree = "<group>"; };
+		536B8EAD1FB03DE000895C7A /* UserEventDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserEventDetailsViewController.swift; sourceTree = "<group>"; };
+		538447CC1FB17C85006661DD /* ClubProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubProfileViewController.swift; sourceTree = "<group>"; };
+		538447CF1FB1846A006661DD /* SendMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageViewController.swift; sourceTree = "<group>"; };
+		538447D21FB19068006661DD /* EventBookingOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBookingOptionViewController.swift; sourceTree = "<group>"; };
+		538447D61FB19CEB006661DD /* SearchEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEventViewController.swift; sourceTree = "<group>"; };
+		97C0045220891B0D16464243 /* Pods_WeOwnTheNight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeOwnTheNight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C310EB81B34939194CFF47BA /* Pods-WeOwnTheNight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeOwnTheNight.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeOwnTheNight/Pods-WeOwnTheNight.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53373C1F1FAAFD3C0043F3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2CEBFE89A611CABB6EBCA3 /* Pods_WeOwnTheNight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53373C191FAAFD3C0043F3BE = {
+			isa = PBXGroup;
+			children = (
+				53373C741FAB013B0043F3BE /* WeOwnTheNight-Bridging-Header.h */,
+				53373C241FAAFD3C0043F3BE /* WeOwnTheNight */,
+				53373C231FAAFD3C0043F3BE /* Products */,
+				932E7816056F22187D1D329A /* Pods */,
+				90DD64B24ADB8EE077A51781 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53373C231FAAFD3C0043F3BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53373C221FAAFD3C0043F3BE /* WeOwnTheNight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53373C241FAAFD3C0043F3BE /* WeOwnTheNight */ = {
+			isa = PBXGroup;
+			children = (
+				53373C711FAAFDA00043F3BE /* AppDelegate */,
+				53373C371FAAFD860043F3BE /* Constants */,
+				53373C3C1FAAFD860043F3BE /* HelperClasses */,
+				53373C491FAAFD860043F3BE /* OtherClasses */,
+				53373C501FAAFD860043F3BE /* Resources */,
+				53373C7B1FAB02810043F3BE /* ViewBaseControllers */,
+				53373C291FAAFD3C0043F3BE /* Main.storyboard */,
+				53373C2C1FAAFD3C0043F3BE /* Assets.xcassets */,
+				53373C2E1FAAFD3C0043F3BE /* LaunchScreen.storyboard */,
+				53373C311FAAFD3C0043F3BE /* Info.plist */,
+			);
+			path = WeOwnTheNight;
+			sourceTree = "<group>";
+		};
+		53373C371FAAFD860043F3BE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				53373C381FAAFD860043F3BE /* AppConstants */,
+				53373C3A1FAAFD860043F3BE /* ServerConstants */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		53373C381FAAFD860043F3BE /* AppConstants */ = {
+			isa = PBXGroup;
+			children = (
+				53373C391FAAFD860043F3BE /* AppConstants.swift */,
+			);
+			path = AppConstants;
+			sourceTree = "<group>";
+		};
+		53373C3A1FAAFD860043F3BE /* ServerConstants */ = {
+			isa = PBXGroup;
+			children = (
+				53373C3B1FAAFD860043F3BE /* ServerConstants.swift */,
+			);
+			path = ServerConstants;
+			sourceTree = "<group>";
+		};
+		53373C3C1FAAFD860043F3BE /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1181FAC43A2004E4108 /* MMDrawerController */,
+				53373C821FAB131B0043F3BE /* TPKeyboardAvoiding */,
+				53373C3D1FAAFD860043F3BE /* Extensions */,
+				53373C3F1FAAFD860043F3BE /* HUD */,
+				53373C411FAAFD860043F3BE /* Indicator */,
+				53373C431FAAFD860043F3BE /* SwiftAlert */,
+				53373C451FAAFD860043F3BE /* SwiftValidation */,
+				53373C471FAAFD860043F3BE /* WebService */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		53373C3D1FAAFD860043F3BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53373C3E1FAAFD860043F3BE /* ClassExtentions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		53373C3F1FAAFD860043F3BE /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				53373C401FAAFD860043F3BE /* HUD.swift */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		53373C411FAAFD860043F3BE /* Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				53373C421FAAFD860043F3BE /* Indicator.swift */,
+			);
+			path = Indicator;
+			sourceTree = "<group>";
+		};
+		53373C431FAAFD860043F3BE /* SwiftAlert */ = {
+			isa = PBXGroup;
+			children = (
+				53373C441FAAFD860043F3BE /* Alert.swift */,
+			);
+			path = SwiftAlert;
+			sourceTree = "<group>";
+		};
+		53373C451FAAFD860043F3BE /* SwiftValidation */ = {
+			isa = PBXGroup;
+			children = (
+				53373C461FAAFD860043F3BE /* SwiftValidation.swift */,
+			);
+			path = SwiftValidation;
+			sourceTree = "<group>";
+		};
+		53373C471FAAFD860043F3BE /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				53373C481FAAFD860043F3BE /* WebService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		53373C491FAAFD860043F3BE /* OtherClasses */ = {
+			isa = PBXGroup;
+			children = (
+				53373C4A1FAAFD860043F3BE /* GalleryAndCamera */,
+				53373C4D1FAAFD860043F3BE /* Reachability */,
+			);
+			path = OtherClasses;
+			sourceTree = "<group>";
+		};
+		53373C4A1FAAFD860043F3BE /* GalleryAndCamera */ = {
+			isa = PBXGroup;
+			children = (
+				53373C751FAB013B0043F3BE /* camera.h */,
+				53373C761FAB013B0043F3BE /* camera.m */,
+			);
+			path = GalleryAndCamera;
+			sourceTree = "<group>";
+		};
+		53373C4D1FAAFD860043F3BE /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				53373C781FAB01520043F3BE /* Reachability.h */,
+				53373C791FAB01520043F3BE /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		53373C501FAAFD860043F3BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53373C511FAAFD860043F3BE /* Fonts */,
+				53373C5C1FAAFD860043F3BE /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53373C511FAAFD860043F3BE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				53373C521FAAFD860043F3BE /* Montserrat-Black.otf */,
+				53373C531FAAFD860043F3BE /* Montserrat-Bold.otf */,
+				53373C541FAAFD860043F3BE /* Montserrat-ExtraBold.otf */,
+				53373C551FAAFD860043F3BE /* Montserrat-Hairline.otf */,
+				53373C561FAAFD860043F3BE /* Montserrat-Light.otf */,
+				53373C571FAAFD860043F3BE /* Montserrat-Regular.otf */,
+				53373C581FAAFD860043F3BE /* Montserrat-SemiBold.otf */,
+				53373C591FAAFD860043F3BE /* Montserrat-UltraLight.otf */,
+				53373C5A1FAAFD860043F3BE /* TIMEBURNERBOLD.TTF */,
+				53373C5B1FAAFD860043F3BE /* TIMEBURNERNORMAL.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		53373C5C1FAAFD860043F3BE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1261FAC5822004E4108 /* background1.png */,
+				535AF1281FAC583D004E4108 /* poster.png */,
+				535AF12E1FAC65BE004E4108 /* user.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		53373C711FAAFDA00043F3BE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				53373C721FAAFDA00043F3BE /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		53373C7B1FAB02810043F3BE /* ViewBaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				538447D51FB19CD4006661DD /* SearchEventVC */,
+				538447D11FB19057006661DD /* EventBookingOptionVC */,
+				538447CE1FB18454006661DD /* SendMessageVC */,
+				538447CB1FB17C67006661DD /* ClubProfileVC */,
+				536B8EAC1FB03DCC00895C7A /* UserEventDetails */,
+				536B8EA91FB0311400895C7A /* EventsByCalendarVC */,
+				536B8EA61FB0233E00895C7A /* EventOnMapVC */,
+				536B8EA31FB01EBE00895C7A /* ClubListingVC */,
+				535AF1481FACA906004E4108 /* UserDashboard */,
+				535AF13F1FACA19F004E4108 /* ProfilePicUploadVC */,
+				535AF13C1FAC94BA004E4108 /* MessageDetailsVC */,
+				535AF1391FAC8E04004E4108 /* MessagesListVC */,
+				535AF1361FAC88FC004E4108 /* CreateNewEventVC */,
+				535AF1331FAC8208004E4108 /* EventDetailVC */,
+				535AF1301FAC674D004E4108 /* EventBookingVC */,
+				535AF12B1FAC6159004E4108 /* MyEventListVC */,
+				535AF1151FAC2B70004E4108 /* HelpVC */,
+				53373CA71FAB4B050043F3BE /* EventBookingListVC */,
+				53373C9D1FAB38450043F3BE /* SideMenuVC */,
+				53373C9A1FAB35C00043F3BE /* DashboardVC */,
+				53373C951FAB34D20043F3BE /* TabBarVC */,
+				53373C921FAB29DA0043F3BE /* RegisterVC */,
+				53373C8F1FAB136D0043F3BE /* LoginVC */,
+				53373C7C1FAB02A20043F3BE /* WelcomeOptionVC */,
+			);
+			path = ViewBaseControllers;
+			sourceTree = "<group>";
+		};
+		53373C7C1FAB02A20043F3BE /* WelcomeOptionVC */ = {
+			isa = PBXGroup;
+			children = (
+				53373C7D1FAB02B30043F3BE /* WelcomeOptionViewController.swift */,
+			);
+			path = WelcomeOptionVC;
+			sourceTree = "<group>";
+		};
+		53373C821FAB131B0043F3BE /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				53373C831FAB131B0043F3BE /* TPKeyboardAvoidingCollectionView.h */,
+				53373C841FAB131B0043F3BE /* TPKeyboardAvoidingCollectionView.m */,
+				53373C851FAB131B0043F3BE /* TPKeyboardAvoidingScrollView.h */,
+				53373C861FAB131B0043F3BE /* TPKeyboardAvoidingScrollView.m */,
+				53373C871FAB131B0043F3BE /* TPKeyboardAvoidingTableView.h */,
+				53373C881FAB131B0043F3BE /* TPKeyboardAvoidingTableView.m */,
+				53373C891FAB131B0043F3BE /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				53373C8A1FAB131B0043F3BE /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		53373C8F1FAB136D0043F3BE /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				53373C901FAB13790043F3BE /* LoginViewController.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		53373C921FAB29DA0043F3BE /* RegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+				53373C931FAB29E70043F3BE /* RegisterViewController.swift */,
+			);
+			path = RegisterVC;
+			sourceTree = "<group>";
+		};
+		53373C951FAB34D20043F3BE /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1421FACA5EE004E4108 /* ClubTabBarVC */,
+				535AF1441FACA5EE004E4108 /* UserTabBarVC */,
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		53373C9A1FAB35C00043F3BE /* DashboardVC */ = {
+			isa = PBXGroup;
+			children = (
+				53373C9B1FAB35D90043F3BE /* DashboardViewController.swift */,
+			);
+			path = DashboardVC;
+			sourceTree = "<group>";
+		};
+		53373C9D1FAB38450043F3BE /* SideMenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				535AF14F1FACAA95004E4108 /* ClubSideMenu */,
+				535AF1511FACAA95004E4108 /* UserSideMenu */,
+			);
+			path = SideMenuVC;
+			sourceTree = "<group>";
+		};
+		53373CA71FAB4B050043F3BE /* EventBookingListVC */ = {
+			isa = PBXGroup;
+			children = (
+				53373CA81FAB4B1B0043F3BE /* EventBookingListViewController.swift */,
+			);
+			path = EventBookingListVC;
+			sourceTree = "<group>";
+		};
+		535AF1151FAC2B70004E4108 /* HelpVC */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1161FAC2BD0004E4108 /* HelpViewController.swift */,
+			);
+			path = HelpVC;
+			sourceTree = "<group>";
+		};
+		535AF1181FAC43A2004E4108 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1191FAC43A2004E4108 /* MMDrawerBarButtonItem.h */,
+				535AF11A1FAC43A2004E4108 /* MMDrawerBarButtonItem.m */,
+				535AF11B1FAC43A2004E4108 /* MMDrawerController+Subclass.h */,
+				535AF11C1FAC43A2004E4108 /* MMDrawerController.h */,
+				535AF11D1FAC43A2004E4108 /* MMDrawerController.m */,
+				535AF11E1FAC43A2004E4108 /* MMDrawerVisualState.h */,
+				535AF11F1FAC43A2004E4108 /* MMDrawerVisualState.m */,
+				535AF1201FAC43A2004E4108 /* UIViewController+MMDrawerController.h */,
+				535AF1211FAC43A2004E4108 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		535AF12B1FAC6159004E4108 /* MyEventListVC */ = {
+			isa = PBXGroup;
+			children = (
+				535AF12C1FAC619D004E4108 /* MyEventListViewController.swift */,
+			);
+			path = MyEventListVC;
+			sourceTree = "<group>";
+		};
+		535AF1301FAC674D004E4108 /* EventBookingVC */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1311FAC675B004E4108 /* EventBookingViewController.swift */,
+			);
+			path = EventBookingVC;
+			sourceTree = "<group>";
+		};
+		535AF1331FAC8208004E4108 /* EventDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1341FAC8218004E4108 /* EventDetailViewController.swift */,
+			);
+			path = EventDetailVC;
+			sourceTree = "<group>";
+		};
+		535AF1361FAC88FC004E4108 /* CreateNewEventVC */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1371FAC8909004E4108 /* CreateNewEventViewController.swift */,
+			);
+			path = CreateNewEventVC;
+			sourceTree = "<group>";
+		};
+		535AF1391FAC8E04004E4108 /* MessagesListVC */ = {
+			isa = PBXGroup;
+			children = (
+				535AF13A1FAC8E12004E4108 /* MessagesListViewController.swift */,
+			);
+			path = MessagesListVC;
+			sourceTree = "<group>";
+		};
+		535AF13C1FAC94BA004E4108 /* MessageDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				535AF13D1FAC94D4004E4108 /* MessageDetailsViewController.swift */,
+			);
+			path = MessageDetailsVC;
+			sourceTree = "<group>";
+		};
+		535AF13F1FACA19F004E4108 /* ProfilePicUploadVC */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1401FACA1AD004E4108 /* ProfilePicUploadViewController.swift */,
+			);
+			path = ProfilePicUploadVC;
+			sourceTree = "<group>";
+		};
+		535AF1421FACA5EE004E4108 /* ClubTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1431FACA5EE004E4108 /* TabBarViewController.swift */,
+			);
+			path = ClubTabBarVC;
+			sourceTree = "<group>";
+		};
+		535AF1441FACA5EE004E4108 /* UserTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1461FACA612004E4108 /* UserTabBarViewController.swift */,
+			);
+			path = UserTabBarVC;
+			sourceTree = "<group>";
+		};
+		535AF1481FACA906004E4108 /* UserDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1491FACA91B004E4108 /* UserDashboardViewController.swift */,
+			);
+			path = UserDashboard;
+			sourceTree = "<group>";
+		};
+		535AF14F1FACAA95004E4108 /* ClubSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1501FACAA95004E4108 /* MyMenuTableViewController.swift */,
+			);
+			path = ClubSideMenu;
+			sourceTree = "<group>";
+		};
+		535AF1511FACAA95004E4108 /* UserSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				535AF1531FACAABC004E4108 /* UserSideMenuTableViewController.swift */,
+			);
+			path = UserSideMenu;
+			sourceTree = "<group>";
+		};
+		536B8EA31FB01EBE00895C7A /* ClubListingVC */ = {
+			isa = PBXGroup;
+			children = (
+				536B8EA41FB0217900895C7A /* ClubListingViewController.swift */,
+			);
+			path = ClubListingVC;
+			sourceTree = "<group>";
+		};
+		536B8EA61FB0233E00895C7A /* EventOnMapVC */ = {
+			isa = PBXGroup;
+			children = (
+				536B8EA71FB0234B00895C7A /* EventOnMapViewController.swift */,
+			);
+			path = EventOnMapVC;
+			sourceTree = "<group>";
+		};
+		536B8EA91FB0311400895C7A /* EventsByCalendarVC */ = {
+			isa = PBXGroup;
+			children = (
+				536B8EAA1FB0312E00895C7A /* EventsByCalendarViewController.swift */,
+			);
+			path = EventsByCalendarVC;
+			sourceTree = "<group>";
+		};
+		536B8EAC1FB03DCC00895C7A /* UserEventDetails */ = {
+			isa = PBXGroup;
+			children = (
+				536B8EAD1FB03DE000895C7A /* UserEventDetailsViewController.swift */,
+			);
+			path = UserEventDetails;
+			sourceTree = "<group>";
+		};
+		538447CB1FB17C67006661DD /* ClubProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				538447CC1FB17C85006661DD /* ClubProfileViewController.swift */,
+			);
+			path = ClubProfileVC;
+			sourceTree = "<group>";
+		};
+		538447CE1FB18454006661DD /* SendMessageVC */ = {
+			isa = PBXGroup;
+			children = (
+				538447CF1FB1846A006661DD /* SendMessageViewController.swift */,
+			);
+			path = SendMessageVC;
+			sourceTree = "<group>";
+		};
+		538447D11FB19057006661DD /* EventBookingOptionVC */ = {
+			isa = PBXGroup;
+			children = (
+				538447D21FB19068006661DD /* EventBookingOptionViewController.swift */,
+			);
+			path = EventBookingOptionVC;
+			sourceTree = "<group>";
+		};
+		538447D51FB19CD4006661DD /* SearchEventVC */ = {
+			isa = PBXGroup;
+			children = (
+				538447D61FB19CEB006661DD /* SearchEventViewController.swift */,
+			);
+			path = SearchEventVC;
+			sourceTree = "<group>";
+		};
+		90DD64B24ADB8EE077A51781 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97C0045220891B0D16464243 /* Pods_WeOwnTheNight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		932E7816056F22187D1D329A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1301F8240F8304527DE30098 /* Pods-WeOwnTheNight.debug.xcconfig */,
+				C310EB81B34939194CFF47BA /* Pods-WeOwnTheNight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53373C211FAAFD3C0043F3BE /* WeOwnTheNight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53373C341FAAFD3C0043F3BE /* Build configuration list for PBXNativeTarget "WeOwnTheNight" */;
+			buildPhases = (
+				601A67D7370F1F6761D6F450 /* [CP] Check Pods Manifest.lock */,
+				53373C1E1FAAFD3C0043F3BE /* Sources */,
+				53373C1F1FAAFD3C0043F3BE /* Frameworks */,
+				53373C201FAAFD3C0043F3BE /* Resources */,
+				41ED09CE59E46DE9F95F4F73 /* [CP] Embed Pods Frameworks */,
+				1B5F0E8A162AB415725D9545 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeOwnTheNight;
+			productName = WeOwnTheNight;
+			productReference = 53373C221FAAFD3C0043F3BE /* WeOwnTheNight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53373C1A1FAAFD3C0043F3BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ramandeep Singh";
+				TargetAttributes = {
+					53373C211FAAFD3C0043F3BE = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = NHVZESNL9B;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53373C1D1FAAFD3C0043F3BE /* Build configuration list for PBXProject "WeOwnTheNight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53373C191FAAFD3C0043F3BE;
+			productRefGroup = 53373C231FAAFD3C0043F3BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53373C211FAAFD3C0043F3BE /* WeOwnTheNight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53373C201FAAFD3C0043F3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53373C691FAAFD860043F3BE /* Montserrat-ExtraBold.otf in Resources */,
+				53373C6E1FAAFD860043F3BE /* Montserrat-UltraLight.otf in Resources */,
+				53373C701FAAFD860043F3BE /* TIMEBURNERNORMAL.TTF in Resources */,
+				53373C681FAAFD860043F3BE /* Montserrat-Bold.otf in Resources */,
+				53373C6A1FAAFD860043F3BE /* Montserrat-Hairline.otf in Resources */,
+				535AF1271FAC5822004E4108 /* background1.png in Resources */,
+				535AF1291FAC583D004E4108 /* poster.png in Resources */,
+				53373C6F1FAAFD860043F3BE /* TIMEBURNERBOLD.TTF in Resources */,
+				53373C671FAAFD860043F3BE /* Montserrat-Black.otf in Resources */,
+				53373C301FAAFD3C0043F3BE /* LaunchScreen.storyboard in Resources */,
+				535AF12F1FAC65BE004E4108 /* user.png in Resources */,
+				53373C2D1FAAFD3C0043F3BE /* Assets.xcassets in Resources */,
+				53373C2B1FAAFD3C0043F3BE /* Main.storyboard in Resources */,
+				53373C6B1FAAFD860043F3BE /* Montserrat-Light.otf in Resources */,
+				53373C6C1FAAFD860043F3BE /* Montserrat-Regular.otf in Resources */,
+				53373C6D1FAAFD860043F3BE /* Montserrat-SemiBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B5F0E8A162AB415725D9545 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeOwnTheNight/Pods-WeOwnTheNight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41ED09CE59E46DE9F95F4F73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeOwnTheNight/Pods-WeOwnTheNight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		601A67D7370F1F6761D6F450 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53373C1E1FAAFD3C0043F3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535AF1241FAC43A2004E4108 /* MMDrawerVisualState.m in Sources */,
+				53373C771FAB013B0043F3BE /* camera.m in Sources */,
+				53373C8D1FAB131B0043F3BE /* TPKeyboardAvoidingTableView.m in Sources */,
+				535AF1251FAC43A2004E4108 /* UIViewController+MMDrawerController.m in Sources */,
+				538447CD1FB17C85006661DD /* ClubProfileViewController.swift in Sources */,
+				535AF1521FACAA95004E4108 /* MyMenuTableViewController.swift in Sources */,
+				535AF1231FAC43A2004E4108 /* MMDrawerController.m in Sources */,
+				53373C731FAAFDA00043F3BE /* AppDelegate.swift in Sources */,
+				535AF1351FAC8218004E4108 /* EventDetailViewController.swift in Sources */,
+				536B8EAB1FB0312E00895C7A /* EventsByCalendarViewController.swift in Sources */,
+				535AF1321FAC675B004E4108 /* EventBookingViewController.swift in Sources */,
+				535AF1171FAC2BD0004E4108 /* HelpViewController.swift in Sources */,
+				535AF1221FAC43A2004E4108 /* MMDrawerBarButtonItem.m in Sources */,
+				535AF1381FAC8909004E4108 /* CreateNewEventViewController.swift in Sources */,
+				538447D01FB1846A006661DD /* SendMessageViewController.swift in Sources */,
+				536B8EAE1FB03DE000895C7A /* UserEventDetailsViewController.swift in Sources */,
+				53373C8E1FAB131B0043F3BE /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				53373C641FAAFD860043F3BE /* WebService.swift in Sources */,
+				53373C7A1FAB01520043F3BE /* Reachability.m in Sources */,
+				53373C631FAAFD860043F3BE /* SwiftValidation.swift in Sources */,
+				538447D31FB19068006661DD /* EventBookingOptionViewController.swift in Sources */,
+				53373C9C1FAB35D90043F3BE /* DashboardViewController.swift in Sources */,
+				53373C8C1FAB131B0043F3BE /* TPKeyboardAvoidingScrollView.m in Sources */,
+				53373C8B1FAB131B0043F3BE /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				53373CA91FAB4B1B0043F3BE /* EventBookingListViewController.swift in Sources */,
+				53373C941FAB29E70043F3BE /* RegisterViewController.swift in Sources */,
+				53373C611FAAFD860043F3BE /* Indicator.swift in Sources */,
+				53373C601FAAFD860043F3BE /* HUD.swift in Sources */,
+				53373C5D1FAAFD860043F3BE /* AppConstants.swift in Sources */,
+				535AF1411FACA1AD004E4108 /* ProfilePicUploadViewController.swift in Sources */,
+				53373C7E1FAB02B30043F3BE /* WelcomeOptionViewController.swift in Sources */,
+				535AF1451FACA5EE004E4108 /* TabBarViewController.swift in Sources */,
+				53373C911FAB13790043F3BE /* LoginViewController.swift in Sources */,
+				53373C5E1FAAFD860043F3BE /* ServerConstants.swift in Sources */,
+				536B8EA81FB0234B00895C7A /* EventOnMapViewController.swift in Sources */,
+				535AF13E1FAC94D4004E4108 /* MessageDetailsViewController.swift in Sources */,
+				535AF14A1FACA91B004E4108 /* UserDashboardViewController.swift in Sources */,
+				538447D71FB19CEB006661DD /* SearchEventViewController.swift in Sources */,
+				536B8EA51FB0217900895C7A /* ClubListingViewController.swift in Sources */,
+				535AF1471FACA612004E4108 /* UserTabBarViewController.swift in Sources */,
+				535AF13B1FAC8E12004E4108 /* MessagesListViewController.swift in Sources */,
+				535AF12D1FAC619D004E4108 /* MyEventListViewController.swift in Sources */,
+				53373C5F1FAAFD860043F3BE /* ClassExtentions.swift in Sources */,
+				53373C621FAAFD860043F3BE /* Alert.swift in Sources */,
+				535AF1541FACAABC004E4108 /* UserSideMenuTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53373C291FAAFD3C0043F3BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53373C2A1FAAFD3C0043F3BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53373C2E1FAAFD3C0043F3BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53373C2F1FAAFD3C0043F3BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53373C321FAAFD3C0043F3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NHVZESNL9B;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "45c89e82-b1e3-4533-9348-991aa6853798";
+				PROVISIONING_PROFILE_SPECIFIER = WeOwn;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53373C331FAAFD3C0043F3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NHVZESNL9B;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "45c89e82-b1e3-4533-9348-991aa6853798";
+				PROVISIONING_PROFILE_SPECIFIER = WeOwn;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53373C351FAAFD3C0043F3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1301F8240F8304527DE30098 /* Pods-WeOwnTheNight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NHVZESNL9B;
+				INFOPLIST_FILE = WeOwnTheNight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evs.weown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WeOwnTheNight/OtherClasses/GalleryAndCamera/WeOwnTheNight-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		53373C361FAAFD3C0043F3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C310EB81B34939194CFF47BA /* Pods-WeOwnTheNight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Kumar (9L3GPKE23Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NHVZESNL9B;
+				INFOPLIST_FILE = WeOwnTheNight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evs.weown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WeOwnTheNight/OtherClasses/GalleryAndCamera/WeOwnTheNight-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53373C1D1FAAFD3C0043F3BE /* Build configuration list for PBXProject "WeOwnTheNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53373C321FAAFD3C0043F3BE /* Debug */,
+				53373C331FAAFD3C0043F3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53373C341FAAFD3C0043F3BE /* Build configuration list for PBXNativeTarget "WeOwnTheNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53373C351FAAFD3C0043F3BE /* Debug */,
+				53373C361FAAFD3C0043F3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53373C1A1FAAFD3C0043F3BE /* Project object */;
+}

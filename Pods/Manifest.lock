@@ -1,0 +1,18 @@
+PODS:
+  - FSCalendar (2.7.9)
+  - PNTToolbar (0.2.1)
+  - STPopup (1.8.3)
+
+DEPENDENCIES:
+  - FSCalendar
+  - PNTToolbar
+  - STPopup
+
+SPEC CHECKSUMS:
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  PNTToolbar: 085a0e1a767c8cfa49bf4cc2170cf0158fd2168e
+  STPopup: da1167250a01584af7bcccb898653185f223ec46
+
+PODFILE CHECKSUM: 06cf192317021b69dfff9801cf81a5d4ae82ae9c
+
+COCOAPODS: 1.2.1
